@@ -1,0 +1,39 @@
+loopy = 1
+print ("Traffic Light Simulation Programme System")
+While True:      #This simulates a Do Loop
+     if loopy ==1:
+            print ("Input signal to run program  :")
+            print ("Input red for  : STOP ")
+            print ("Input yellow for  : READY TO STOP")
+            print ("Input green for  :  GO")
+            print ("Input stop for  : END PROGRAMME")
+            print ("---------------------------------------------")
+else:
+      print("Input signal to run program  :")
+      print("-------------------------------------")
+signal = input()
+if signal == "red" :
+    print("Color = RED")
+    print("Stop behind the line")
+    print("Next 60 seconds")
+    print("--------------------------------")
+else:
+    if signal == "yellow":
+         print("Color = YELLOW")
+         print("Get ready to stop your vehicle")
+         print("Nest 60 seconds")
+else:
+    if signal == "green":
+          print("color == GREEN")
+          print("You choose to end this program.")
+          print("-----------------------------------------')
+   else:
+        if signal == "stop":
+           print("you choose to end this programme.")
+           print("------------------------------------------")
+     else:
+          print("Please insert the right signals(red, yellow, green & stop) only.")
+          print("-----------------------------------------------------------------------------")
+ loopy = 2
+ if not(signal  != "stop"): break   #Exit loop
+print("End Simulation Programme")
